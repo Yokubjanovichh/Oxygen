@@ -1,3 +1,12 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  min-height: 100%;
+}
+
 html {
   font-size: calc(100vw / (1920 / 10));
 }
@@ -106,6 +115,7 @@ html {
   transition: background-position 0.5s ease-in-out;
 
   animation: gradientWipe 3s infinite ease;
+  margin-top: 1.5rem;
 }
 
 /* 💫 Animation */
@@ -131,7 +141,7 @@ html {
 }
 
 .businessDirektor {
-  margin-top: 1.5rem;
+  margin-top: 2.3rem;
   padding-left: 5.4rem;
   display: flex;
   align-items: flex-start;
@@ -226,7 +236,8 @@ html {
 
 .right {
   width: 7.2rem;
-  height: 100%;
+  height: auto;
+  max-height: 100%;
   border-left: 8px solid rgba(16, 188, 43, 1);
   overflow: hidden;
   display: flex;
